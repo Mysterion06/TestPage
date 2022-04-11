@@ -1,0 +1,47 @@
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    margin-top: 50px;
+    color: black;
+}
+
+img{
+    max-width:100%;
+    height: auto;
+}
+
+.teaserBox{
+    width: 100%
+}
+
+@media screen and (max-width:800px){
+    .teaserBox{
+        width:50%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .teaserBox{
+        width:25%;    
+    }
+}
